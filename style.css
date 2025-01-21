@@ -17,7 +17,7 @@ body{
 }
 main{
     
-    min-width: 35vh;
+    min-width: 50vh;
     min-height: 25vw;
     background:white;
     padding: 2rem;
@@ -76,7 +76,7 @@ h1.title{
 .dados{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .dados h2{
     margin-bottom: 5px;
@@ -84,6 +84,7 @@ h1.title{
 }
 .imc{
     text-align: center;
+    padding: 5px;
 }
 .imc ul{
     
