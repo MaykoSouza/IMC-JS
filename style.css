@@ -50,6 +50,12 @@ button:hover{
     color: white;
 }
 
+#resultadoCalculo{
+    
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
 .calculo{
 
     background-color: #4a00e0;
