@@ -11,7 +11,7 @@ form.addEventListener('submit', (event) =>{
 
         const num1 = parseFloat(peso.value)
         const num2 = parseFloat(altura.value)
-        const divisao = num1 / num2
+        const divisao =  num1 / (num2 * num2 )
         
         resultado.textContent = divisao
     })
