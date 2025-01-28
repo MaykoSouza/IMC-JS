@@ -39,6 +39,7 @@ button{
     margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
+   
     
 }
 button:hover{
@@ -49,15 +50,12 @@ button:hover{
     background:#4a00e0;
     color: white;
 }
-
 #resultadoCalculo{
-    
-    margin-left: 3rem;
     font-weight: bold;
 }
-
 .calculo{
 
+     text-align: center;
     background-color: #4a00e0;
     margin-top: 30px;
     padding:10px;
@@ -66,33 +64,23 @@ button:hover{
 
 }
 .info{
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-h1.title{
-    width: 100%;
-    color: #4a00e0;
+
     text-align: center;
     margin-top: 30px;
+    padding:30px ;
+    border: 3px solid  ;
+    border-color: #8e2de2;
+    border-radius: 10px;
+}
+ 
+.info td{
+    color: #4a00e0;
     padding: 10px;
-    margin-bottom: 15px;
 }
-.dados{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.dados h2{
-    margin-bottom: 5px;
-   
-}
-.imc{
-    text-align: center;
-    padding: 5px;
-}
-.imc ul{
+
+.azul{
+
     
-    list-style-type:none;
+  
+  
 }
