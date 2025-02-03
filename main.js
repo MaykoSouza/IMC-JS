@@ -4,6 +4,10 @@ const  altura = document.getElementById('altura')
 const resultado = document.getElementById('resultadoCalculo')
 const calcular = document.getElementById('calcular')
 const magreza = document.getElementById('magreza')
+const normal = document.getElementById('normal')
+const sobrepeso = document.getElementById('sobrepeso')
+const obesidade = document.getElementById('obesidade')
+const obesidadeGrav = document.getElementById('obesidadeGrave')
 
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
@@ -19,10 +23,25 @@ form.addEventListener('submit', (event) =>{
         
         if(divisao < 18.5){
 
-            magreza.classList.add('azul')
+            magreza.classList.add('magreza')
+
+        } else if(divisao > 18.5 && divisao < 25){
+
+            normal.classList.add('normal')
+
+        }else if(divisao > 25 && divisao < 30){
+
+            sobrepeso.classList.add('sobrepeso')
+
+        }else if(divisao > 30 && divisao < 40){
+
+            obesidade.classList.add('obesidade')
+
+        }else if(divisao > 40){
+
+            obesidadeGrave.classList.add('obesidadeGrave')
 
         }
-
     })
   
 

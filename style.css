@@ -70,16 +70,32 @@ button:hover{
   
 }
  
-
-
 .tabela, td, th{
     padding:10px ;
     border-collapse: collapse;
     border: 1px solid rgb(160 160 160);
 }
-#magreza{
+.magreza{
 
-    
-  background-color: blue;
+  background-color: rgb(123, 123, 248);
+  color: white;
   
+}
+.normal{
+
+    background-color: rgb(123, 248, 144);
+    color: white;
+    
+  }
+.sobrepeso{
+
+    background-color: rgb(253, 255, 155);
+}
+.obesidade{
+
+    background-color: rgb(248, 162, 104);
+}
+.obesidadeGrave{
+
+    background-color: rgb(248, 104, 104);
 }
