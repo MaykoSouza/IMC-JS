@@ -9,6 +9,15 @@ const sobrepeso = document.getElementById('sobrepeso')
 const obesidade = document.getElementById('obesidade')
 const obesidadeGrav = document.getElementById('obesidadeGrave')
 
+
+function LimparEstilos(){
+    magreza.classList.remove('magreza')
+    normal.classList.remove('normal')
+    sobrepeso.classList.remove('sobrepeso')
+    obesidade.classList.remove('obesidade')
+    obesidadeGrave.classList.remove('obesidadeGrave')
+}
+
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
 
@@ -20,6 +29,7 @@ form.addEventListener('submit', (event) =>{
         
         resultado.textContent = divisao.toFixed(2)
 
+        LimparEstilos()
         
         if(divisao < 18.5){
 
